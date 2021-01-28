@@ -30,11 +30,11 @@ if (isset($_GET['error']) && $_GET['error'] === '1') {
     <form method="post" action="script.php">
         <div>
             <label for="minimum">Chiffre minimum : </label>
-            <input id="minimum" name="minimum" min="0" required>
+            <input id="minimum" name="minimum" required>
         </div>
         <div>
             <label for="maximum">Chiffre maximum: </label>
-            <input id="maximum" name="maximum" min="0" required>
+            <input id="maximum" name="maximum" required>
         </div>
         <input type="submit" value="Envoyer">
     </form>
